@@ -9,7 +9,7 @@ This document outlines the key components and best practices for building a scal
 - **Programming Language (Runtime):** JavaScript/TypeScript (Node.js)
 - **Framework:** Express.js or Nest.js (optional, for REST APIs and other backend logic)
 - **WebSocket Library:** Socket.io for real-time, bi-directional communication
-- **Database:** MongoDB or Redis for storing chat messages, user sessions, and metadata
+- **Database:** MongoDB or Redis for storing chat messages, user sessions, and metadata with **ORMs** and **Queries builder**
 - **Session Store:** Redis for session storage and sharing state between servers
 - **Load Balancer:** cloud-based load balancers (AWS ELB, Google Cloud Load Balancer)
 - **Scaling:** Horizontal scaling using multiple servers

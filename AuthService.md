@@ -8,7 +8,7 @@ This document outlines the key components and recommendations for building a sca
 
 - **Programming Language (Runtime):** JavaScript/TypeScript (Node.js)
 - **Framework:** Express.js or Nest.js
-- **Database:** MongoDB (NoSQL) for scalability and flexibility
+- **Database:** MongoDB (NoSQL) for scalability and flexibility with **ORMs** and **Queries builder**
 - **Token Management:** JWT (JSON Web Token) for authentication
 - **Password Hashing:** bcrypt or Argon2 (secure alternatives to MD5)
 - **Sensitive Data Encryption:** AES for encrypting sensitive data (optional)
